@@ -1,0 +1,39 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* banner styling section */
+
+.banner {
+    background-image: url('../Images/resources/Banner\ Image.png');
+    height: 600px;
+    width: 1400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 170px 450px 0px;
+}
+
+.banner-text {
+text-align: center;
+font-size: 50px;
+font: weight 900px;
+color: #FFF;
+padding-top: 15px;
+margin-right: 45px;
+
+}
+
