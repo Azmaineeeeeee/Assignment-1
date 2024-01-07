@@ -13,8 +13,8 @@ body {
 .banner {
     background-image: url('../Images/resources/Banner\ Image.png');
     height: 600px;
-    width: 1450px;
-    margin: 50px auto;
+    max-width: 1400px;
+    margin: 100px auto;
     border-radius: 10px;
 
 }
@@ -75,12 +75,12 @@ body {
 .midnight-party {
     display: flex;
     background-image: url('../Images/resources/Vectorrr.png');
-    width: 1400px;
+    max-width: 1400px;
     height: 600px;
     background-repeat: no-repeat;
     margin: 100px auto;
-    
-    
+
+
 }
 
 .midnight-party img {
@@ -98,21 +98,73 @@ body {
     letter-spacing: 7 px;
 }
 
-.midnight-party-paragraph{
-color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-margin: 10px 0px 20px 125px;
+.midnight-party-paragraph {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0px 20px 125px;
 }
 
-.midnight-party button{
-    margin: 20px 0px 20px 125px; 
+.midnight-party button {
+    margin: 20px 0px 20px 125px;
     padding: 20px;
     border: 2px solid white;
     border-radius: 5px;
-    background-color:rgb(102, 5, 102);
+    background-color: rgb(102, 5, 102);
     color: white;
     box-shadow: 0px 0px 10px 5px;
 
+}
+
+/* location related style */
+
+.location {
+    text-align: center;
+    height: 400px;
+    max-width: 1400px;
+    background-color: rgb(255, 235, 242);
+    margin: 100px auto;
+}
+
+.location-details {
+    padding: 100px 150px 0px;
+    
+}
+
+.location-place {
+    margin-bottom: 10px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.location-date {
+    margin-bottom: 10px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.location-time {
+    margin-bottom: 30px;
+    color: #070211;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.location-details span{
+    color: #F00;
+}
+
+.location-button{
+    border-radius: 5px;
+    padding: 18px 36px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    font-size: large;
+    font-weight: bold;
 }
