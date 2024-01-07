@@ -16,7 +16,7 @@ body {
     width: 1400px;
     margin: 50px auto;
     border-radius: 10px;
-    
+
 }
 
 .banner-title {
@@ -24,16 +24,50 @@ body {
     text-align: center;
     font-size: 30px;
     font-weight: lighter;
-    padding: 170px 450px 0px;
+    padding: 200px 250px 0px;
+
 }
 
 .banner-text {
-text-align: center;
-font-size: 50px;
-font: weight 900px;
-color: #FFF;
-padding-top: 15px;
-margin-right: 45px;
-
+    text-align: center;
+    font-size: 50px;
+    font: weight 900px;
+    color: white;
+    padding-top: 10px;
+    margin-right: 45px;
 }
 
+
+/* discount section styling */
+.discount {
+    text-align: center;
+}
+
+.discount-number {
+    color: #F00;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: Inter;
+    margin-top: 100px;
+}
+
+.discount-heading {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.discount-sub-heading {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+}
