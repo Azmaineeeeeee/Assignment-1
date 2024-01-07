@@ -129,7 +129,7 @@ body {
 
 .location-details {
     padding: 100px 150px 0px;
-    
+
 }
 
 .location-place {
@@ -155,11 +155,11 @@ body {
     font-weight: 600;
 }
 
-.location-details span{
+.location-details span {
     color: #F00;
 }
 
-.location-button{
+.location-button {
     border-radius: 5px;
     padding: 18px 36px;
     background-color: #FF0000;
@@ -167,4 +167,55 @@ body {
     border: none;
     font-size: large;
     font-weight: bold;
+}
+
+.best-offer {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    max-width: 1400px;
+    margin: 150px auto 100px;
+}
+
+.new-best-offer-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.new-best-offer-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+
+
+}
+
+.new-best-offer-paragraph {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.new-best-offer-time{
+    padding: 30px 0px 0px 40px;
+}
+
+.new-best-offer-time img{
+    margin-top: 30px;
+}
+
+.circle-image{
+    border-radius: 50%;
+    border: 15px solid #F00;
+    padding: 30px;
+    margin-top: -50px;
+
+    
 }
