@@ -13,7 +13,7 @@ body {
 .banner {
     background-image: url('../Images/resources/Banner\ Image.png');
     height: 600px;
-    width: 1400px;
+    width: 1450px;
     margin: 50px auto;
     border-radius: 10px;
 
@@ -31,7 +31,7 @@ body {
 .banner-text {
     text-align: center;
     font-size: 50px;
-    font: weight 900px;
+    font: weight 700px;
     color: white;
     padding-top: 10px;
     margin-right: 45px;
@@ -69,5 +69,50 @@ body {
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 20px;
-   
+
+}
+
+.midnight-party {
+    display: flex;
+    background-image: url('../Images/resources/Vectorrr.png');
+    width: 1400px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: 100px auto;
+    
+    
+}
+
+.midnight-party img {
+    width: 300 px;
+    height: 450px;
+    margin-top: 60px;
+}
+
+.midnight-party-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 125px 0px 10px 125px;
+    letter-spacing: 7 px;
+}
+
+.midnight-party-paragraph{
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+margin: 10px 0px 20px 125px;
+}
+
+.midnight-party button{
+    margin: 20px 0px 20px 125px; 
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color:rgb(102, 5, 102);
+    color: white;
+    box-shadow: 0px 0px 10px 5px;
+
 }
