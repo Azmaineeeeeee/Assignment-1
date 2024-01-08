@@ -227,7 +227,19 @@ body {
     height: 600px;
     max-width: 1400px;
     margin: 5px auto 50px;
+    position: relative;
+
 }
+
+.off {
+    position: absolute;
+    top: 380px;
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+
+
 
 .sale-section {
     text-align: center;
@@ -270,20 +282,13 @@ body {
 .rectangle {
     float: right;
     margin-top: 50px;
+    position: relative;
 }
 
 .rectangle-2 {
     float: right;
+
 }
-
-/* .off{
-    object-fit: cover;
-    /* object-position: 60% 30%; */
-/* float: center right;
-} */
-
-
-/* portfolio section styling */
 
 .Portfolio {
     height: 600px;
@@ -369,82 +374,91 @@ body {
     margin-top: 10px;
 }
 
-.newsletter-paragraph{
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-margin-top: 10px;
+.newsletter-paragraph {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
 }
-    
-.email{
+
+.email {
     margin-top: 50px;
     display: flex;
     padding-left: 35%;
     position: relative;
 }
 
-.email-input{
+.email-input {
     padding: 15px 100px;
     border: none;
-    -webkit-border-radius:20px;
-    
+    -webkit-border-radius: 20px;
+
 }
 
-.subscribe{
-    
-        padding: 15px;
-        background-color: rgb(255, 0, 0);
-        color: white;
-        transform: translate(-50%);
-        border-radius: 0 50px 50px 0;
-        
+.subscribe {
+
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transform: translate(-50%);
+    border-radius: 0 50px 50px 0;
+
 
 }
 
 /* styling footer */
 
-footer{
-background: cover;
-background: #070211;
-height: 400px;
-margin-top: 50px;
+footer {
+    background: cover;
+    background: #070211;
+    height: 400px;
+    margin-top: 50px;
+    padding: 0px 30px;
 }
 
-.footer-address{
+.footer-address {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #ffffff41;
+
 }
 
-.address-details, .contact-details{
-color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-weight: 100;
+.address-details,
+.contact-details {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 30px;
 }
 
-.footer-contact hr{
+.footer-contact hr {
     margin: 30px;
     width: 30% 30%;
-    background-color:#070211;
+    background-color: #070211;
 }
 
-.footer-links{
+.footer-links {
     text-align: center;
     padding: 20px 0px;
+    border-bottom: 2px solid #ffffff41;
 }
 
-.facebook, .instagram, .twitter{
+.facebook,
+.instagram,
+.twitter {
     margin-right: 10px;
 }
 
-.footer-contact{
+.footer-contact {
     padding-top: 50px;
 }
 
-.footer-end{
+.footer-end {
     display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
+    justify-content: space-around;
+    margin: 20px 30px;
 }
