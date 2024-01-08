@@ -352,7 +352,7 @@ body {
 .newsletter {
     height: 600px;
     width: 1400px;
-    margin: 600px auto;
+    margin: 600px auto 200px;
     background-color: rgba(255, 0, 0, 0.05);
 }
 
@@ -400,4 +400,51 @@ margin-top: 10px;
         border-radius: 0 50px 50px 0;
         
 
+}
+
+/* styling footer */
+
+footer{
+background: cover;
+background: #070211;
+height: 400px;
+margin-top: 50px;
+}
+
+.footer-address{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px 40px;
+}
+
+.address-details, .contact-details{
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 100;
+}
+
+.footer-contact hr{
+    margin: 30px;
+    width: 30% 30%;
+    background-color:#070211;
+}
+
+.footer-links{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.facebook, .instagram, .twitter{
+    margin-right: 10px;
+}
+
+.footer-contact{
+    padding-top: 50px;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
 }
