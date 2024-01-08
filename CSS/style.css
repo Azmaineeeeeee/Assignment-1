@@ -223,11 +223,12 @@ body {
 }
 
 /* sale-section-styling */
-.sale{
+.sale {
     height: 600px;
     max-width: 1400px;
     margin: 5px auto 50px;
 }
+
 .sale-section {
     text-align: center;
 }
@@ -266,17 +267,82 @@ body {
     margin: top 10px;
 }
 
-.rectangle{
+.rectangle {
     float: right;
     margin-top: 50px;
 }
 
-.rectangle-2{
+.rectangle-2 {
     float: right;
 }
 
 /* .off{
     object-fit: cover;
     /* object-position: 60% 30%; */
-    float: center right;
+/* float: center right;
 } */
+
+
+/* portfolio section styling */
+
+.Portfolio {
+    height: 600px;
+    max-width: 1200px;
+    margin: 400px auto 100px;
+}
+
+.portfolio-images-row1,
+.portfolio-images-row2 {
+    display: flex;
+}
+
+.portfolio-images-row1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.portfolio-images-row2 {
+    margin-top: 20px;
+}
+
+.bag,
+.designer-bag,
+.white-heel,
+.sunglass {
+    margin-right: 20px;
+
+}
+
+.bag,
+.designer-bag,
+.white-heel,
+.sunglass,
+.red-heel,
+.rings {
+    border-radius: 5%;
+}
+
+.portfolio-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.portfolio-heading {
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.portfolio-paragraph {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
