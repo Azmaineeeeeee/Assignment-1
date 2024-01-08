@@ -238,6 +238,12 @@ body {
     transform: translateX(-50%);
 }
 
+.glitter{
+    position: absolute; 
+    transform: translateX(-50%);
+    top: 400px;
+    left: 20%;
+}
 
 
 
@@ -403,8 +409,6 @@ body {
     color: white;
     transform: translate(-50%);
     border-radius: 0 50px 50px 0;
-
-
 }
 
 /* styling footer */
